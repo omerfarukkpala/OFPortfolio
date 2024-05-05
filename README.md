@@ -103,5 +103,33 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 ## Deneyim Listesi
 ![screencapture-palaomerfaruk-tr-Experience-Index-2024-05-05-23_45_51](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/5572bb18-98f8-4480-9628-b15eebb53a45)
 
+## Deneyimlerim Ajax 
+![screencapture-palaomerfaruk-tr-ExperienceAjax-Index-2024-05-05-23_48_11](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/cadd67ce-8be5-491d-bdea-902eaa91fe5d)
+
+## Referanslarım 
+![screencapture-palaomerfaruk-tr-Testimonial-Index-2024-05-05-23_49_32](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/0df60a8d-c25e-405a-ae5a-965f229aa217)
+
+## İletişim Bilgilerim
+![screencapture-palaomerfaruk-tr-ContactInfo-Index-2024-05-05-23_50_21](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/93bfea8a-39c8-43f3-882a-d4ef09886208)
+
+## Sosyal Medaya Bilgileri
+![screencapture-palaomerfaruk-tr-SocialMedia-Index-2024-05-05-23_52_45](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/c251c283-9b6e-4ce8-b889-6d08d175fad4)
+
+## Duyuru İşlemleri
+![screencapture-palaomerfaruk-tr-Announcement-Index-2024-05-05-23_53_33](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/e89e657a-2988-4456-ad1f-25eb40c2e299)
+
+## İletişim
+
+
+
+
+
+
+
+
+
+
+
+
 
 
