@@ -124,8 +124,15 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 ## Mesajlar 
 ![screencapture-palaomerfaruk-tr-AdminMessage-AdminMessageDetailS-3-2024-05-05-23_58_38](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/55d2a4f7-8aff-460a-8167-60e3e11c3326)
 
+## Mesajlar Giden Kutusu 
+![screencapture-palaomerfaruk-tr-AdminMessage-Sendbox-2024-05-06-00_02_00](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/c199800e-0356-4071-9ab9-0d92a466802c)
+
+
 ## Roller 
 ![screencapture-palaomerfaruk-tr-Role-Index-2024-05-05-23_59_42](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/0c9172e0-8c8b-4332-a71a-40349fe99161)
+
+## Aradığınız Sayfa Bulunamadı
+![screencapture-palaomerfaruk-tr-Writer-Login-Index6-2024-05-06-00_02_32](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/23255b7a-0d44-4f17-861f-518f0d9040a8)
 
 
 
