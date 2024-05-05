@@ -87,3 +87,21 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 ## Admin Paneli 
 ### Dashboard
 ![screencapture-palaomerfaruk-tr-Dashboard-Index-2024-05-05-23_35_59](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/9421adc5-9045-47e4-9ae4-296b54712490)
+
+## Öne Çıkan 
+![screencapture-palaomerfaruk-tr-Feature-Index-2024-05-05-23_40_01](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/315a20c2-203f-40f7-b4f8-f1f0ce6a0ab7)
+
+## Hakkımda 
+![screencapture-palaomerfaruk-tr-About-Index-2024-05-05-23_41_21](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/3883dd0a-5eda-45e2-a9e1-dc499f200bc8)
+
+## Hizmetlerim 
+![screencapture-palaomerfaruk-tr-Service-Index-2024-05-05-23_42_46](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/d12ccbf8-776d-4980-8057-b30464575207)
+
+## Yeteneklerim
+![screencapture-palaomerfaruk-tr-Skill-Index-2024-05-05-23_44_45](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/17828ad4-3089-4eaf-9b6c-b5f10cff3eff)
+
+## Deneyim Listesi
+![screencapture-palaomerfaruk-tr-Experience-Index-2024-05-05-23_45_51](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/5572bb18-98f8-4480-9628-b15eebb53a45)
+
+
+
