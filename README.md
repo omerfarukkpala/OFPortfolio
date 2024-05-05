@@ -50,5 +50,8 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 ## İletişim 
 ![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/6126f4ca-8b32-4eec-bd76-293db01696f2)
 
+## Anasayfa Komple
+![screencapture-palaomerfaruk-tr-2024-05-05-23_00_10](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/6d96326e-d3b5-4478-9879-75b7e14e2fd2)
+
 
 
