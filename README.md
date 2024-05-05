@@ -61,6 +61,16 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 ## Yazar Giriş
 ![screencapture-palaomerfaruk-tr-Writer-Login-Index-2024-05-05-23_11_47](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/9aeb42a0-4008-4118-9d67-f48159d7f6e4)
 
+## Yazar Dashboard
+![screencapture-palaomerfaruk-tr-Writer-Register-Index-2024-05-05-23_12_56](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/90cabdbf-5117-4d64-91c8-06f6764eb409)
+## Yeni Mesaj
+![screencapture-palaomerfaruk-tr-Writer-Register-Index-2024-05-05-23_12_56](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/e379e84c-3d69-4df6-be13-aa9c837c0040)
+## Gelen Mesaj
+![screencapture-palaomerfaruk-tr-Writer-Register-Index-2024-05-05-23_12_56](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/f24f9b4b-8f9a-4cf1-b010-1c78d92ca4a3)
+## Gelen Mesaj Detay
+![screencapture-palaomerfaruk-tr-Writer-Register-Index-2024-05-05-23_12_56](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/e624460f-f74b-481d-8457-723f0e30b644)
+## Duyurular
+![screencapture-palaomerfaruk-tr-Writer-Register-Index-2024-05-05-23_12_56](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/a034cee1-a364-4693-8a5d-0df53b0b8e2a)
 
 
 
