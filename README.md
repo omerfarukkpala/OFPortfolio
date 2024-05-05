@@ -34,6 +34,8 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 ![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/020e572b-f798-4fca-a490-648c9a45d6e0)
 
 ## Proje Görselleri 
+![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/f4d85397-52a8-4160-a209-4e3a5ae48931)
+## Anasayfa
 ![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/17b7bff5-a7bb-459f-a835-ba62e888df7d)
 ## Hakkımda
 ![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/92241cbc-2c8e-408e-aeeb-90665c08b695)
