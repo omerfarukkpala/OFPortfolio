@@ -1,6 +1,12 @@
 # Ömer Faruk Pala Portfolio
 https://palaomerfaruk.com.tr/ 
 
+
+
+https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/b57f85f0-c802-4081-bbbb-e6f6cb8d62ed
+
+
+
 ## Proje Hakkında: 
 ASP.Net Core kullanarak Entity Framework Core ve N Tier Architecture mimarisi ile kodlanmıştır. Codefirst yaklaşımı ile SQL Server veritabanını destekleyen bir Portfolio sitesi projesidir. Default, Yazar ve Admin panellerine sahiptir.
 
