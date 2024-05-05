@@ -3,13 +3,14 @@ https://palaomerfaruk.com.tr/
 
 ## Proje Hakkında: 
 ASP.Net Core kullanarak Entity Framework Core ve N Tier Architecture mimarisi ile kodlanmıştır. Codefirst yaklaşımı ile SQL Server veritabanını destekleyen bir Portfolio sitesi projesidir. Default, Yazar ve Admin panellerine sahiptir.
-##### Proje Detay 
+
+#### Proje Detay 
 Projenin 3 temel paneli var.
 Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bilgiler bulunuyor.Yazar panelinde  sistemiminize kaydolup bu sistem üzerinden haberleşecek kişiler için bir panel oluşturuldu. Bu panelde kişiler mesajlaşma, duyurular, profil bilgilerini düzenleme, şifre değiştirme gibi işlemlere erişim sağlayabilirler. Admin paneli ise projenin esas kısmını oluşturmakta. Admin panelinde kullanılan özellikleri   videoda net bir şekilde görebilirsiniz.
 
 
 
-
+ 
 ## Proje de Kullanılan Teknolojiler:
 * Asp.Net Core kullanarak web uygulamalarının geliştirilmesi
 * Entity Framework Core ile veritabanı işlemleri
