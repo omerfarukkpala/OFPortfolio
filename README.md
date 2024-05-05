@@ -81,4 +81,8 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 ## Ayarlar 
 ![screencapture-palaomerfaruk-tr-Writer-Profile-Setting-2024-05-05-23_30_26](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/d08db3da-dba1-41b9-bf34-68002ed62816)
 
+## Çıkış Yap
+![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/06577d88-92c6-4a24-ad45-c6756467efe1)
 
+## Admin Paneli 
+![screencapture-palaomerfaruk-tr-Dashboard-Index-2024-05-05-23_35_59](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/9421adc5-9045-47e4-9ae4-296b54712490)
