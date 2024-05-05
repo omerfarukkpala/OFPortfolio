@@ -28,6 +28,9 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 * ViewComponent ve Partial kullanımı vs..
 
 
+###  Veritabanı 
+![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/1a1589d1-bd6d-4ef7-aa91-f83c6c19bd45)
 
+![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/020e572b-f798-4fca-a490-648c9a45d6e0)
 
 
