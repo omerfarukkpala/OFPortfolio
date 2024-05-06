@@ -40,13 +40,14 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 
 
 ## Proje Kurulumu
+![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/9f3f2ad4-fc4b-4b84-9448-b8fa1a6cdd4f)
+
 ```
 Local Context.cs
  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
  {
      optionsBuilder.UseSqlServer("server=servername;database=databasename;integrated security=true");
  }
-![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/9f3f2ad4-fc4b-4b84-9448-b8fa1a6cdd4f)
 
 Production Context.cs
 
