@@ -29,6 +29,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Writer\Data\" />
+    <Folder Include="Portfolio\" />
     <Folder Include="wwwroot\userimage\" />
   </ItemGroup>
 
