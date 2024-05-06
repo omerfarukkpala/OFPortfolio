@@ -1,0 +1,61 @@
+﻿@using EntityLayer.Concrete
+@model List<WriterMessage>
+
+@{
+    ViewData["Title"] = "Sendbox";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header border-0">
+                <h3 class="mb-0">Giden Kutusu</h3>
+            </div>
+            <!-- Light table -->
+            <div class="table-responsive">
+                <table class="table align-items-center table-flush">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col" class="sort" data-sort="name">Gönderen</th>
+                            <th scope="col" class="sort" data-sort="budget">Mail</th>
+                            <th scope="col" class="sort" data-sort="budget">Konu</th>
+                            <th scope="col" class="sort" data-sort="status">Tarih</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@item.ReceiverName</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td class="budget">
+                                    @item.Receiver
+                                </td>
+                                <td class="budget">
+                                    @item.Subject
+                                </td>
+                                <td>
+                                    <span class="badge badge-dot mr-4">
+                                        <i class="bg-primary"></i>
+                                        <span class="status">@(((DateTime)item.Date).ToString("dd MMMM yyyy"))</span>
+                                    </span>
+                                </td>
+                                <td><a href="/AdminMessage/DeleteAdminMessage/@item.ID" class="btn btn-danger">Sil</a></td>
+                                <td><a href="/AdminMessage/AdminMessageDetailS/@item.ID" class="btn btn-outline-primary">Detay</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

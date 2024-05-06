@@ -1,0 +1,66 @@
+﻿@using EntityLayer.Concrete
+@model List<Experience>
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header border-0">
+                <h3 class="mb-0">Deneyim Listesi</h3>
+            </div>
+            <!-- Light table -->
+            <div class="table-responsive">
+                <table class="table align-items-center table-flush">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col" class="sort" data-sort="name">Pozisyon</th>
+                            <th scope="col" class="sort" data-sort="budget">Firma Adı</th>
+                            <th scope="col" class="sort" data-sort="status">Tarih</th>
+                            <th scope="col" class="sort" data-sort="completion"></th>
+                            <th scope="col" class="sort" data-sort="completion"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model)
+                        {
+                            string[] renkler = { "blue", "cyan", "danger", "dark", "gray", "gray-dark", "green", "indigo", "info", "light", "orange", "pink", "primary", "purple", "red", "success", "teal", "warning", "yellow" };
+
+                            Random random = new Random();
+                            int rastgeleIndis = random.Next(0, renkler.Length);
+                            string rastgeleDeger = renkler[rastgeleIndis];
+
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@item.Title</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td class="budget">
+                                    @item.Name
+                                </td>
+                                <td>
+                                    <span class="badge badge-dot mr-4">
+                                        <i class="bg-primary bg-@rastgeleDeger"></i>
+                                        <span class="status">@item.Date</span>
+                                    </span>
+                                </td>
+                                <td><a href="/Experience/DeleteExperience/@item.ExperienceID" class="btn btn-danger">Sil</a></td>
+                                <td><a href="/Experience/EditExperience/@item.ExperienceID" class="btn btn-info">Güncelle</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/Experience/AddExperience" class="btn btn-outline-primary col-12">Yeni Deneyim Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,140 @@
+﻿@model Core_Proje.Areas.Writer.Models.UserLoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/skydash/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/skydash/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/skydash/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="src/css/site.css">
+    <link rel="icon" href="src/img/faviconprofil/favicon-96x96.png">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/skydash/css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/skydash/images/favicon.png" />
+@*     <link rel="stylesheet" type="text/css" href="~/animated-login-form/dist/style.css">
+
+ *@
+	<link href="~/animated/src/styles.css" rel="stylesheet" />
+ <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="preloader loaded-success fixed inset-0 z-50 bg-gray-50">
+        <div class="absolute left-1/2 top-1/2 transform -translate-y-1/2">
+            <div class="relative mx-auto my-12">
+                <div class="inline-block">
+                    <svg class="animate-spin h-8 w-8 text-blue-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-root">
+        <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+            <div class="loginbackground box-background--white padding-top--64">
+                <div class="loginbackground-gridContainer">
+                    <div class="box-root flex-flex" style="grid-area: top / start / 8 / end;">
+                        <div class="box-root" style="background-image: linear-gradient(white 0%, rgb(247, 250, 252) 33%); flex-grow: 1;">
+                        </div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 4 / 2 / auto / 5;">
+                        <div class="box-root box-divider--light-all-2 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 6 / start / auto / 2;">
+                        <div class="box-root box-background--blue800" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 7 / start / auto / 4;">
+                        <div class="box-root box-background--blue animationLeftRight" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 8 / 4 / auto / 6;">
+                        <div class="box-root box-background--gray100 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 2 / 15 / auto / end;">
+                        <div class="box-root box-background--cyan200 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 3 / 14 / auto / end;">
+                        <div class="box-root box-background--blue animationRightLeft" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 4 / 17 / auto / 20;">
+                        <div class="box-root box-background--gray100 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+                    </div>
+                    <div class="box-root flex-flex" style="grid-area: 5 / 14 / auto / 17;">
+                        <div class="box-root box-divider--light-all-2 animationRightLeft tans3s" style="flex-grow: 1;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+                <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+                    <h1><a href="#" rel="dofollow">Giriş Formu</a></h1>
+                </div>
+                <div class="formbg-outer">
+                    <div class="formbg">
+                        <div class="formbg-inner padding-horizontal--48">
+                            <span class="padding-bottom--15">Giriş Yapma Formu</span>
+                            <form method="post">
+                                <div class="field padding-bottom--24">
+                                    <label for="text">Kullanıcı Adınız</label>
+                                    <input type="text" asp-for="Username">
+                                    <span asp-validation-for="Username" class="text-danger  field"></span>
+                                </div>
+
+                                <div class="field padding-bottom--24">
+                                    <label for="password">Parolanız</label>
+                                    <input type="password" asp-for="Password">
+                                    <span asp-validation-for="Password" class="text-danger  field"></span>
+                                    @*<div class="reset-pass">
+                                    <a href="#">Forgot your password?</a>
+                                    </div>*@
+                                </div>
+
+                                <div class="field padding-bottom--24">
+                                    <input type="submit" name="submit" value="Giriş Yap!">
+                                </div>
+                                @* <div class="field">
+                                <a class="ssolink" href="#">Use single sign-on (Google) instead</a>
+                                </div>*@
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer-link padding-top--24">
+                        <span>Henüz bir hesabın bulunmuyor  mu? <a href="/Writer/Register/Index">Lütfen Kayıt Ol!</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="~/skydash/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="~/skydash/js/off-canvas.js"></script>
+    <script src="~/skydash/js/hoverable-collapse.js"></script>
+    <script src="~/skydash/js/template.js"></script>
+    <script src="~/skydash/js/settings.js"></script>
+	<script src="~/skydash/js/todolist.js"></script>
+	<script src="~/argon-dashboard/assets/js/sitess.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>

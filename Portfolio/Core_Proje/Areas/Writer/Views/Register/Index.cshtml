@@ -1,0 +1,89 @@
+﻿@model Core_Proje.Areas.Writer.Models.UserRegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="~/skydash/vendors/feather/feather.css">
+    <link rel="stylesheet" href="~/skydash/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/skydash/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/skydash/css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/skydash/images/favicon.png" />
+    <link href="~/animated/src/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+                            <div class="brand-logo">
+                                <img src="~/skydash/images/logo.svg" alt="logo">
+                            </div>
+                            <h4>Bir Hesabın Bulunmuyor Mu?</h4>
+                            <h6 class="font-weight-light">Hemen Kayıt Olur Musun?</h6>
+                            <form class="pt-3" method="post">
+                                <div class="form-group">
+                                    <input type="text" asp-for="Name" class="form-control form-control-lg" id="exampleInputEmail1" name="Name" placeholder="Adınız">
+                                    <span asp-validation-for="Name" class="text-danger  field"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" asp-for="Surname" class="form-control form-control-lg" id="exampleInputEmail1" name="Surname" placeholder="Soyadınız">
+                                    <span asp-validation-for="Surname" class="text-danger  field"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" asp-for="ImageUrl" class="form-control form-control-lg" id="exampleInputEmail1" name="ImageUrl" placeholder="Görsel URL">
+                                    <span asp-validation-for="ImageUrl" class="text-danger  field"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" asp-for="UserName" class="form-control form-control-lg" id="exampleInputEmail1" name="UserName" placeholder="Kullanıcı Adınız">
+                                    <span asp-validation-for="UserName" class="text-danger  field"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" asp-for="Mail" class="form-control form-control-lg" id="exampleInputEmail1" name="Mail" placeholder="Mail Adresiniz">
+                                    <span asp-validation-for="Mail" class="text-danger  field"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" asp-for="Password" class="form-control form-control-lg" id="exampleInputEmail1" name="Password" placeholder="Şifreniz">
+                                    <span asp-validation-for="Password" class="text-danger  field"></span>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" asp-for="ConfirmPassword" class="form-control form-control-lg" id="exampleInputEmail1" name="ConfirmPassword" placeholder="Şifre Tekrar">
+                                    <span asp-validation-for="ConfirmPassword" class="text-danger  field"></span>
+                                </div>
+                                <div class="text-danger" asp-validation-summary="ModelOnly">
+                                </div>
+                                <div class="mt-3">
+                                    @*<button class="btn btn-primary">Kayıt Ol</button>*@
+                                    <button class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">Kayıt Ol</button>
+                                    @*<a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" asp-action="Index" >Kayıt Ol</a>*@
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <script src="~/skydash/vendors/js/vendor.bundle.base.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+﻿@using EntityLayer.Concrete
+@model List<SocialMedia>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header border-0">
+                <h3 class="mb-0">Sosyal Medya Bilgilerim</h3>
+            </div>
+            <!-- Light table -->
+            <div class="table-responsive">
+                <table class="table align-items-center table-flush">
+                    <thead class="thead-light">
+                        <tr>
+                            <th scope="col" class="sort" data-sort="name">İkon</th>
+                            <th scope="col" class="sort" data-sort="budget">Url</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="list">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row">
+                                    <div class="media align-items-center">
+                                        <a href="#" class="avatar rounded-circle mr-3">
+                                            <i class="@item.Icon"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <span class="name mb-0 text-sm">@item.Name</span>
+                                        </div>
+                                    </div>
+                                </th>
+                                <td class="budget">
+                                    @item.Url
+                                </td>
+                                <td><a href="/SocialMedia/DeleteSocialMedia/@item.SocialMediaID" class="btn btn-danger">Sil</a></td>
+                                <td><a href="/SocialMedia/EditSocialMedia/@item.SocialMediaID" class="btn btn-info">Güncelle</a></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <a href="/SocialMedia/AddSocialMedia" class="btn btn-outline-primary col-12">Yeni Sosyal Medya Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>

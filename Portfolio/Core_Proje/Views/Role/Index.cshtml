@@ -1,0 +1,55 @@
+﻿@using EntityLayer.Concrete
+@model List<WriterRole>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <!-- Card header -->
+            <div class="card-header border-0">
+                <h3 class="mb-0">Rol Listesi</h3>
+            </div>
+            <!-- Light table -->
+            @if (Model.Count > 0)
+            {
+                <div class="table-responsive">
+                    <table class="table align-items-center table-flush">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col" class="sort" data-sort="budget">Rol Adı</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+
+                        <tbody class="list">
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <span class="badge badge-dot mr-4">
+                                            <i class="bg-primary"></i>
+                                            <span class="status">@item.Name</span>
+                                        </span>
+                                    </td>
+                                    <td><a href="/Role/DeleteRole/@item.Id" class="btn btn-danger">Sil</a></td>
+                                    <td><a href="/Role/UpdateRole/@item.Id" class="btn btn-info">Güncelle</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <a href="/Role/CreateRole/" class="btn btn-outline-primary col-12">Yeni Rol Ekle</a>
+                </div>
+            }
+            else
+            {
+                <i class="fab fa-angular fa-lg text-danger me-3 "></i> <strong class="pb-2 text-center alert alert-danger">Her hangi bir rol ataması yapılmamıştır.</strong>
+                <a href="/Role/CreateRole/" class="btn btn-outline-primary col-12">Yeni Rol Ekle</a>
+            }
+        </div>
+    </div>
+</div>
