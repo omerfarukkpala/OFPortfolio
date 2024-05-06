@@ -39,6 +39,35 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 * ViewComponent ve Partial kullanımı vs..
 
 
+## Proje Kurulumu
+```
+Context.cs
+ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+ {
+     optionsBuilder.UseSqlServer("server=servername;database=databasename;integrated security=true");
+ }
+
+
+```
+
+## Projeyi Calistirmak Icin:
+```
+Entity Framework Code First
+Enable-Migrations: Enables the migration in your project by creating a Configuration class.
+Add-Migration: Creates a new migration class as per specified name with the Up() and Down() methods.
+Update-Database: Executes the last migration file created by the Add-Migration command and applies changes to the database schema.
+
+https://www.entityframeworktutorial.net/code-first/code-based-migration-in-code-first.aspx
+
+```
+
+## Projeyi Browser'da Acmak Icin:
+```
+Index  = https://localhost:44335/
+Writer = https://localhost:44335/Writer/Login/Index
+Admin  = https://localhost:44335/Dashboard/Index
+```
+
 ###  Veritabanı 
 ![image](https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/1a1589d1-bd6d-4ef7-aa91-f83c6c19bd45)
 
