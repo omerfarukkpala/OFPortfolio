@@ -1,4 +1,4 @@
-# Ömer Faruk Pala Portfolio    
+# Ömer Faruk Pala Portfolio     
 https://palaomerfaruk.com.tr/    
        
        
