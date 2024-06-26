@@ -1,6 +1,6 @@
 # Ömer Faruk Pala Portfolio         
 https://palaomerfaruk.com.tr/                   
-                                 
+                                  
                        
                
 https://github.com/omerfarukkpala/OFPortfolio/assets/101570820/b57f85f0-c802-4081-bbbb-e6f6cb8d62ed
