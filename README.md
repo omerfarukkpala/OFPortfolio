@@ -16,7 +16,7 @@ Bu projede eğitim hayatım, deneyimlerim, referanslarınım, projelerim gibi bi
 
 
 
- 
+  
 ## Proje de Kullanılan Teknolojiler:
 * Asp.Net Core kullanarak web uygulamalarının geliştirilmesi
 * Entity Framework Core ile veritabanı işlemleri
