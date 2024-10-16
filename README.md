@@ -70,9 +70,9 @@ https://www.entityframeworktutorial.net/code-first/code-based-migration-in-code-
 
 ## Projeyi Browser'da Acmak Icin:
 ```
-Index  = https://localhost:44335/
-Writer = https://localhost:44335/Writer/Login/Index
-Admin  = https://localhost:44335/Dashboard/Index
+Index  = https://localhost:43335/
+Writer = https://localhost:43335/Writer/Login/Index
+Admin  = https://localhost:43335/Dashboard/Index
 ```
 
 ###  Veritabanı 
